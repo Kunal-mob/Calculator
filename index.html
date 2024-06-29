@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="logic.js"></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div id="main">
+        <h1>Calculator</h1>
+        <input id="input" type="text">
+        <table>
+            <tr>
+                <td><button onclick="show(7)" class="grey">7</button></td>
+                <td><button onclick="show(8)" class="grey">8</button></td>
+                <td><button onclick="show(9)" class="grey">9</button></td>
+                <td><button onclick="show('/')" class="">/</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="show(4)" class="grey">4</button></td>
+                <td><button onclick="show(5)" class="grey">5</button></td>
+                <td><button onclick="show(6)" class="grey">6</button></td>
+                <td><button onclick="show('*')" class="">*</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="show(1)" class="grey">1</button></td>
+                <td><button onclick="show(2)" class="grey">2</button></td>
+                <td><button onclick="show(3)" class="grey">3</button></td>
+                <td><button onclick="show('-')" class="">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="clearInput()" class="red">clr</button></td>
+                <td><button onclick="show(0)" class="grey">0</button></td>
+                <td><button onclick="solve()" class="green">=</button></td>
+                <td><button onclick="show('+')" class="">+</button></td>
+            </tr>
+        </table>
+
+    </div>
+</body>
+
+</html>
